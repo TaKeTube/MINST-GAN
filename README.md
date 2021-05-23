@@ -48,3 +48,38 @@ pip install pytorch_msssim
 
 ### Results
 
+More results and trained models can be seen in ***results*** folder. Here are parts of them.
+
+#### **50 epochs, batch size 128, one-sided smoothing (true label set to 0.9)**
+
+**Animation**
+
+![](https://github.com/TaKeTube/MNIST-GAN/blob/main/results/animation.gif?raw=true)
+
+**Compare with real image**
+
+![](https://github.com/TaKeTube/MNIST-GAN/blob/main/results/50%20epoch%20bs%20128%20label%200.9/results/compare.png?raw=true)
+
+**Loss  during training** 
+
+![](https://github.com/TaKeTube/MNIST-GAN/blob/main/results/50%20epoch%20bs%20128%20label%200.9/results/loss.png?raw=true)
+
+**D(x) & D(G(z)) during training**
+
+![](https://github.com/TaKeTube/MNIST-GAN/blob/main/results/50%20epoch%20bs%20128%20label%200.9/results/probability.png?raw=true)
+
+#### A Failed training (200 epochs, batch size 256)
+
+**Animation**
+
+![](https://github.com/TaKeTube/MNIST-GAN/blob/main/results/fail-animation.gif?raw=true)
+
+You can see mode collapse in this process.
+
+**Loss  during training** 
+
+![](https://github.com/TaKeTube/MNIST-GAN/blob/main/results/200%20epoch/results/fail-loss.png?raw=true)
+
+**D(x) & D(G(z)) during training**
+
+![](https://github.com/TaKeTube/MNIST-GAN/blob/main/results/200%20epoch/results/probability.png?raw=true)
